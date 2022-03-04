@@ -50,3 +50,43 @@ input, button, .button {
     width: 100%;
     margin-bottom: 1.8rem;
 }
+
+.separator {
+    display: flex;
+    align-items: center;
+    margin: 4rem 0;
+}
+.separator div:nth-child(2) {
+    color: var(--grey-blue);
+    margin: 0rem 1.35rem;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+.separator div:nth-child(odd) {
+    background: var(--grey-blue);
+    width: 100%;
+    height: 0.1rem;
+}
+
+/* Create balls */
+.ball {
+    width: 21.2rem;
+    height: 21.2rem;
+    background: var(--blue);
+    clip-path: circle();
+    opacity: 0.13;
+
+    position: fixed; /* Fica em cima de tudo */
+}
+.ball.top {
+    width: 63.3rem;
+    height: 63.3rem;
+    top: -44rem;
+    right: -37rem;
+
+}
+.ball.bottom {
+    bottom: -15rem;
+    right: 5.5rem;
+
+}
