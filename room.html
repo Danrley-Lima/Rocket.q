@@ -17,10 +17,40 @@
 </head>
 
 <body>
-    <div id="home" class="content">
+    <div id="room" class="content">
         <header>
-            <img src="assets/logo.svg" alt="Rocket.q Logo">
+            <a href="#">
+                <img src="assets/logo.svg" alt="Rocket.q Logo">
+            </a>
+            <div class="buttons">
+                <div class="button outlined">
+                    #323243
+                    <img src="assets/copy.svg" alt="Copiar número da sala">
+                </div>
+                <a href="#" class="button">
+                    <img src="assets/users-white.svg" alt="Criar uma sala">
+                    Criar sala
+                </a>
+            </div>
         </header>
+
+        <main>
+            <section id="question-form">
+                <h2>Faça sua pergunta</h2>
+                <form action="">
+                    <label for="question" class="sr-only">O que você quer perguntar?</label>
+                    <textarea name="question" id="question" cols="30" rows="10"></textarea>
+
+                    <footer>
+                        <div>
+                            <img src="assets/lock.svg" alt="">
+                            Esta pergunta é anônima
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </footer>
+                </form>
+            </section>
+        </main>
     </div>
 </body>
 </html>
