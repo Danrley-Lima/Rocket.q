@@ -13,7 +13,7 @@
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -39,7 +39,7 @@
                 <h2>Faça sua pergunta</h2>
                 <form action="">
                     <label for="question" class="sr-only">O que você quer perguntar?</label>
-                    <textarea name="question" id="question" cols="30" rows="10"></textarea>
+                    <textarea name="question" id="question" cols="30" rows="10" placeholder="O que você quer perguntar?"></textarea>
 
                     <footer>
                         <div>
@@ -49,6 +49,33 @@
                         <button type="submit">Enviar</button>
                     </footer>
                 </form>
+            </section>
+
+            <section id="questions">
+                <h2 class="sr-only">Perguntas da comunidade</h2>
+                <div class="questions">
+                    
+                    <div class="question wrapper">
+                        <div class="question-content">
+                            <div class="user">
+                                <img src="assets/avatar.svg" alt="Avatar">
+                            </div>
+                            <div class="question">
+                                <p>Qual a diferença entre var, let e const no JS?</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <a href="#" class="check">
+                                <img src="assets/check.svg" alt="Marcar como lida">
+                            </a>
+                            <a href="#" class="delete">
+                                <img src="assets/trash.svg" alt="Excluir pergunta">
+                                Excluir
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
             </section>
         </main>
     </div>
