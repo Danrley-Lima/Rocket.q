@@ -1,0 +1,20 @@
+{
+  "name": "Nlw_x_backend",
+  "version": "1.0.0",
+  "description": "Projeto para gerenciar perguntas anônimas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danrley-Lima/Rocket.q.git"
+  },
+  "keywords": [],
+  "author": "Danrley Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danrley-Lima/Rocket.q/issues"
+  },
+  "homepage": "https://github.com/Danrley-Lima/Rocket.q#readme"
+}
