@@ -6,7 +6,8 @@ const server = express();
 
 server.set("view engine", "ejs")
 
-server.use(express.static("public"))
+server.use(express.static("public")) 
+// Usando arquivos do public
 
 server.set('views', path.join(__dirname, 'views'))
 // .../nlw_x_rocketq/src/views

@@ -59,6 +59,7 @@
 
 #question-form form textarea {
     outline: none;
+    height: 15rem;
     width: 100%;
     resize: none;
     background: none;
