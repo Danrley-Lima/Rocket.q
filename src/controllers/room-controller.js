@@ -54,7 +54,7 @@ module.exports = {
             }
         }
         
-        res.render("room", {roomId: roomId, questions: questions, questionsRead: questionsRead})
+        res.render("room", {roomId: roomId, questions: questions, questionsRead: questionsRead, isNoQuestions: isNoQuestions})
     },
 
     enter(req, res){
