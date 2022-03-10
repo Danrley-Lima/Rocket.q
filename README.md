@@ -1,4 +1,4 @@
-# Primeira experiência prática com node.js na NLW06 da Rocketseat.
+# Primeiro experimento prático com node.js na NLW06 da Rocketseat.
 
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
