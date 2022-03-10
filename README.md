@@ -1,6 +1,6 @@
 # Primeira experiência prática com node.js na NLW06 da Rocketseat.
 
-# Tecnologias
+## 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
